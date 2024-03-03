@@ -35,34 +35,3 @@ nohup bash unibi_3.sh > ./unibi3_biokg.log &
 
 
 
-## Citation
-If you make use of this code and UniBi model, please kindly cite the following paper:
-
-```bib
-@inproceedings{
-chen2021relation,
-title={Relation Prediction as an Auxiliary Training Objective for Improving Multi-Relational Graph Representations},
-author={Yihong Chen and Pasquale Minervini and Sebastian Riedel and Pontus Stenetorp},
-booktitle={3rd Conference on Automated Knowledge Base Construction},
-year={2021},
-url={https://openreview.net/forum?id=Qa3uS3H7-Le}
-}
-@article{DBLP:journals/corr/abs-2309-13834,
-  author       = {Jiayi Li and
-                  Ruilin Luo and
-                  Jiaqi Sun and
-                  Jing Xiao and
-                  Yujiu Yang},
-  title        = {Prior Bilinear Based Models for Knowledge Graph Completion},
-  journal      = {CoRR},
-  volume       = {abs/2309.13834},
-  year         = {2023},
-  url          = {https://doi.org/10.48550/arXiv.2309.13834},
-  doi          = {10.48550/ARXIV.2309.13834},
-  eprinttype    = {arXiv},
-  eprint       = {2309.13834},
-  timestamp    = {Wed, 27 Sep 2023 16:51:35 +0200},
-  biburl       = {https://dblp.org/rec/journals/corr/abs-2309-13834.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
-}
-```
